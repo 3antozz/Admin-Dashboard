@@ -25,3 +25,21 @@
   #root, #__next {
     isolation: isolate;
   }
+
+  /* _________________________________________________________________ */
+
+  body {
+    height: 100dvh;
+    display: grid;
+    grid-template: 1fr 5fr / 0.8fr 3.5fr 1fr;
+  }
+
+
+  body > div {
+    border: 2px solid black;
+  }
+
+  .header {
+    padding: 1rem;
+    grid-column: span 3;
+  }
