@@ -7,6 +7,7 @@
   }
   * {
     margin: 0;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   }
   body {
     line-height: 1.5;
@@ -98,11 +99,16 @@
     display: grid;
     grid-template: 1fr 1fr / 1fr 2fr;
     align-items: center;
+    justify-self: start;
+    column-gap: 2rem;
+    margin-left: 2rem;
   }
 
   .profile-picture {
     grid-row: span 2;
+    justify-self: end;
   }
+
 
   .buttons {
     display: grid;
@@ -132,6 +138,7 @@
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(3, 1fr);
     gap: 1.8rem;
   }
 
@@ -147,6 +154,25 @@
     max-height: 350px;
     overflow: auto;
     border-left: 8px solid orange;
+    display: grid;
+    grid-template: 2fr 1fr / 1fr;
+  }
+
+  .text {
+    grid-column: span 2;
+  }
+
+  .card-icons {
+    display: grid;
+    align-self: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-right: 1.5rem;
+  }
+
+
+  .card-icons:nth-child(2) {
+    grid-column: 2 / 3;
   }
 
   .border {
@@ -164,12 +190,8 @@
     padding: 1rem 2rem;
   }
 
-  .announcements {
-    margin-bottom: 2.5rem;
-  }
-
   h3 ~ p, h4 ~ p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .all-trending {
@@ -183,11 +205,42 @@
     display: grid;
     grid-template: 1fr 1fr / 1fr 2fr;
     align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .tweet:last-child{
+    margin: 0;
   }
 
   .pfp {
     grid-row: span 2;
   }
+
+  .right-bar {
+    display: grid;
+  }
+
+  .trending {
+    align-self: end;
+  }
+
+  .text h2 {
+    margin-bottom: 0.3rem;
+  }
+
+  .main-content > h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  svg {
+    fill: white;
+  }
+
+
+
+
+
+
 
 
 
