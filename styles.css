@@ -36,10 +36,6 @@
   }
 
 
-  /* body > div {
-    border: 2px solid black;
-  } */
-
   .header {
     padding: 1rem;
     grid-column: 2 / span 2;
@@ -144,17 +140,21 @@
     justify-self: end;
     width: 4.5rem;
     height: 4.5rem;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
   }
 
-  .profile img {
+  /* .profile img {
     scale: 1.8;
     position: absolute;
     top: 22%;
     left: 5%;
+    cursor: pointer;
+  } */
+
+    .profile img {
     cursor: pointer;
   }
 
@@ -213,6 +213,10 @@
 
   .text {
     grid-column: span 2;
+  }
+
+  .card h3 {
+    margin-bottom: 0.5rem;
   }
 
   .card-icons {
@@ -282,19 +286,19 @@
     grid-row: span 2;
     width: 3.5rem;
     height: 3.5rem;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
     justify-self: center;
   }
 
-  .tweet img {
+  /* .tweet img[alt="3antozz"] {
     scale: 1.8;
     position: absolute;
     top: 22%;
     left: 5%;
-  }
+  } */
 
 
 
@@ -308,7 +312,7 @@
   }
 
   .trending {
-    align-self: end;
+    align-self: start;
   }
 
   .text h2 {
@@ -362,17 +366,21 @@
   .header-pfp {
     width: 3.5rem;
     height: 3.5rem;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
   }
 
-  .right img {
+  /* .right img {
     scale: 1.8;
     position: absolute;
     top: 22%;
     left: 5%;
+    cursor: pointer;
+  } */
+
+    .right img {
     cursor: pointer;
   }
 
