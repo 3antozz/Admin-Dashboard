@@ -136,7 +136,7 @@
     align-items: center;
     justify-self: start;
     column-gap: 2rem;
-    margin-left: 2rem;
+    margin-left: 5%;
   }
 
   .profile-picture {
@@ -155,6 +155,7 @@
     position: absolute;
     top: 22%;
     left: 5%;
+    cursor: pointer;
   }
 
   .profile h2 {
@@ -230,6 +231,7 @@
 
   .annonce {
     padding: 0.8rem 0;
+    cursor: pointer;
   }
 
   .annonce:hover {
@@ -265,6 +267,7 @@
     grid-template: 1fr 1fr / 1fr 2fr;
     align-items: center;
     margin-bottom: 1rem;
+    cursor: pointer;
   }
 
   .tweet:hover {
@@ -294,6 +297,7 @@
   }
 
 
+
   .tweet p {
     align-self: start;
   }
@@ -309,6 +313,18 @@
 
   .text h2 {
     margin-bottom: 0.3rem;
+  }
+
+  .right h3 {
+    cursor: pointer;
+  }
+
+  .right h3:hover {
+    text-decoration: underline;
+  }
+
+  .profile h2 {
+    cursor: pointer;
   }
 
   .main-content > h2, .announcements > h2 {
@@ -357,6 +373,7 @@
     position: absolute;
     top: 22%;
     left: 5%;
+    cursor: pointer;
   }
 
 
