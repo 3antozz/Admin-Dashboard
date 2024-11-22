@@ -30,7 +30,6 @@
   /* _________________________________________________________________ */
 
   body {
-    height: 100dvh;
     display: grid;
     grid-template: 1fr 5fr / minmax(150px, 1fr) 3.5fr minmax(250px, 1.2fr);
   }
